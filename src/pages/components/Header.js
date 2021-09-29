@@ -10,7 +10,7 @@ function Header() {
       <div className=" flex justify-center pt-1 pb-1 bg-amazon_blue-light shadow-sm">
         <h3 className="text-sm">Fixed shipping charges</h3>
       </div>
-      <div className="flex items-center justify-between pt-5 ">
+      <div className="flex items-center justify-between  ">
         <div className="pl-4">
           <MenuIcon
             className="h-6 cursor-pointer md:text-white"
@@ -21,8 +21,8 @@ function Header() {
         <div className="flex justify-center">
           <Image
             src="http://pearlstudio.com.au/wp-content/uploads/logo.webp"
-            width={150}
-            height={80}
+            width={100}
+            height={60}
           />
         </div>
         <div className="pr-4 relative">
@@ -33,43 +33,43 @@ function Header() {
         </div>
       </div>
       {/* Menu Option */}
-      <div className="flex justify-center pt-5 ">
+      <div className="flex justify-center ">
         <div className="hidden md:flex space-x-3 justify-center max-w-screen-2xl ">
           <a
             href="/"
-            className=" block py-2.5 px-4 rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
+            className=" block py-2.5 px-4 text-sm rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
           >
-            Home
+            HOME
           </a>
           <a
             href="/"
-            className=" block py-2.5 px-4 rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
+            className=" block py-2.5 px-4 text-sm rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
           >
-            Shop
+            SHOP
           </a>
           <a
             href="/"
-            className=" block py-2.5 px-4 rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
+            className=" block py-2.5 px-4 text-sm rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
           >
-            Catering
+            CATERING
           </a>
           <a
             href="/"
-            className=" block py-2.5 px-4 rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
+            className=" block py-2.5 px-4 text-sm rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
           >
-            Contact
+            CONTACT
           </a>
           <a
             href="/"
-            className=" block py-2.5 px-4 rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
+            className=" block py-2.5 px-4 text-sm rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
           >
-            About
+            ABOUT
           </a>
           <a
             href="/"
-            className=" block py-2.5 px-4 rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
+            className=" block py-2.5 px-4 text-sm rounded transition duration-200 hover:bg-amazon_blue hover:shadow-md font-normal"
           >
-            My Account
+            MY ACCOUNT
           </a>
         </div>
       </div>

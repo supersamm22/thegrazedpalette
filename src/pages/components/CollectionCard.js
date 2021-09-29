@@ -4,7 +4,7 @@ function CollectionCard() {
   return (
     <div className="">
       <div className="flex justify-items-center flex-col pt-12 ">
-        <h1 className="max-w-5xl mx-auto text-center font-semibold text-2xl md:text-3xl pb-4 border-b-2  border-solid border-amazon_blue mb-4  ">
+        <h1 className="max-w-5xl mx-auto text-center font-semibold text-lg md:text-1xl pb-4 border-b-2  border-solid border-amazon_blue mb-4  ">
           {" "}
           VIEW OUR SHOP{" "}
         </h1>
@@ -18,9 +18,9 @@ function CollectionCard() {
                 objectFit="cover"
                 className="cursor-pointer"
               />
-              <h2 className="text-center font-semibold text-2xl md:text-3xl pb-4 border-b-2 bg-amazon_blue shadow-md border-solid border-amazon_blue mb-4  transition duration-200 hover:bg-amazon_blue-light hover:shadow-md cursor-pointer  pt-2 ">
+              <h2 className="text-center font-semibold text-sm md:text-lg pb-3 border-b-2 bg-amazon_blue shadow-md border-solid border-amazon_blue mb-4  transition duration-200 hover:bg-amazon_blue-light hover:shadow-md cursor-pointer  pt-2 ">
                 {" "}
-                Shop Grazed boxes{" "}
+                SHOP GRAZING BOXES{" "}
               </h2>
             </div>
             <div>
@@ -31,9 +31,9 @@ function CollectionCard() {
                 objectFit="cover"
                 className="cursor-pointer"
               />
-              <h2 className="text-center font-semibold text-2xl md:text-3xl pb-4 border-b-2 bg-amazon_blue shadow-md border-solid border-amazon_blue mb-4  transition duration-200 hover:bg-amazon_blue-light hover:shadow-md cursor-pointer  pt-2  ">
+              <h2 className="text-center font-semibold text-sm md:text-lg pb-3 border-b-2 bg-amazon_blue shadow-md border-solid border-amazon_blue mb-4  transition duration-200 hover:bg-amazon_blue-light hover:shadow-md cursor-pointer  pt-2  ">
                 {" "}
-                Shop Desert boxes{" "}
+                SHOP DESSERT BOXES{" "}
               </h2>
             </div>
           </div>
@@ -45,9 +45,9 @@ function CollectionCard() {
               objectFit="cover"
               className="cursor-pointer"
             />
-            <h2 className="text-center font-semibold text-2xl md:text-3xl pb-4 border-b-2 bg-amazon_blue shadow-md border-solid border-amazon_blue mb-4  transition duration-200 hover:bg-amazon_blue-light hover:shadow-md cursor-pointer  pt-2 ">
+            <h2 className="text-center font-semibold text-sm md:text-lg pb-3 border-b-2 bg-amazon_blue shadow-md border-solid border-amazon_blue mb-4  transition duration-200 hover:bg-amazon_blue-light hover:shadow-md cursor-pointer  pt-2 ">
               {" "}
-              Shop Table Setups{" "}
+              SHOP TABLE SETUPS{" "}
             </h2>
           </div>
         </div>
